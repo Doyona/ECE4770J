@@ -15,12 +15,17 @@ Linked Structure:
 1. Insertion/deletion are simple and fast
 2. Moving pointers is faster than moving the actual data
 3. Random access it not allow.
+4. Very flexible, more complex , poor cache locality.
 
 Continous data structures:
-1.
-2.
-3.
+1. No extra space wasted for the pointer field
+2. Efficient random access is possbile
+3. Better memory locality and cache performance.
+
 - What is a greedy algorithm?
+
+A greedy algorithm is an algorithmic strategy that makes the locally optimal choice at each step with the hope that these local choices will lead to a globally optimal solution.
+
 
 - Describe the divide and conquer strategy?
 
