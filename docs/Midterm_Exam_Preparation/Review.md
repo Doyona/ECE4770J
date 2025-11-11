@@ -68,8 +68,6 @@ Note:
 ## Master Theorem
 ![](./Figure/Master.png)
 
-
-
 ## Computational Complexity
 
 ### Definitions
@@ -149,15 +147,35 @@ A fixed computation with initial state $q_0$ and a finite sequence of elementary
 ### Initailization of a RAW
 
 - All the cells are set to 0, besides the first n input cells
+  
 - The program register contains 1
+  
 - The first n cells contain the value from the n input cells.
 
 ### RAW vs Turing machine
 Two models are equivalent.
+
 - For every Turing machine M, there exists a program for P for RAW that simulate M.
   
 - For a programe P of RAM, there exists a Turing machine M with five tapes such that P and M behave the same.
 
+### Formalizing complexity 
+
+![](./Figure/formal_time.png)
+
+
+## Brief Review of NP 
+
+![](./Figure/NP1.png)
+
+![](./Figure/NP2.png)
+### Important conclusion
+
+-  SAT is NP-complete
+-  The Halting problem is NP-hard.
+-  TQBF can be solved in exponential time and polynomial space.
+-  TQBF is PSPACE-complete and in particular it is NP-hard.
+-  
 # Dynamic Programming
 
 ## Idea Behind dynamic programming
@@ -173,12 +191,7 @@ Two models are equivalent.
 ## The Advantage of dynamic programming
 
 1. Dynamic programming save both time and space (Do not waste memory because of recursion)
-
 2. 
-
-3. 
-
-4. 
 ## Shortest Paths in weighted graphs
 
 Consider two cases:

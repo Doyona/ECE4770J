@@ -23,3 +23,4 @@ let rec sum_plus_acc (acc : int) (l : int list) : int =
 ```
 
 
+3. How to open Ocaml
